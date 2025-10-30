@@ -1,40 +1,274 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zxx" class="no-js">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <!--<meta name="google-site-verification" content="7lNaADa6vgd5RN6gRL4xBrdDkltgVNs5CyqyQPUJsE4" />-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLR1L82PHW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VLR1L82PHW');
+    </script>
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="~/content/themes/bytepixel/img/fav.png">
+    <meta name="author" content="codepixer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>Metabytepixel- Tu página web a la medida</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/linearicons.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/bootstrap.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/nice-select.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/animate.min.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/content/themes/bytepixel/css/main.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("Nombre de la aplicación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Acerca de", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contacto", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
-        </footer>
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <header id="header" id="home">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-8 col-4 header-top-left no-padding">
+                        <ul>
+                            <li><a href="https://wa.me/+525566271872/?text=¡Hola! buen día, le contacto desde la página web"><span class="lnr lnr-phone-handset"></span><span class="text">+52 5566271872</span></a></li>
+                            <li><a href="mailto:ventas@metabytepixel.net"><span class="lnr lnr-envelope"></span><span class="text">ventas@metabytepixel.net</span></a></li>
+                        </ul>
+                    </div>
+                    <!----
+                        <div class="col-lg-6 col-sm-4 col-8 header-top-right no-padding">
+                            <a class="text-uppercase top-head-btn" href="#">Iniciar sesión</a>
+                        </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="inicio"><img src="~/content/themes/bytepixel/img/1logo-svg.svg" alt="" title="" width="150rem" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="#home">Inicio</a></li>
+                        <li><a href="#plan">Plan</a></li>
+                        <li><a href="#about">Acerca</a></li>
+                        <li><a href="#service">Caracteristicas</a></li>
+                        <li><a href="#faq">Faq</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <!--
+                        <li class="menu-has-children">
+                            <a href="">Paginas demostracion</a>
+                            <ul>
+                                <li>
+                                    <a>Barbería</a>
+                                    <ul>
+                                        <li><a href="barberia1">Barbería 1</a></li>                    
+                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                                <a>Dentista</a>
+                                                                <ul>
+                                                                    <li><a href="dentista1">Dentista 1</a></li>
+                                                                    <li><a href="dentista2">Dentista 2</a></li>
+                                                                    <li><a href="dentista3">Barberia 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Escuela</a>
+                                                                <ul>
+                                                                    <li><a href="escuela1">Escuela 1</a></li>
+                                                                    <li><a href="escuela2">Escuela 2</a></li>
+                                                                    <li><a href="escuela3">Escuela 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Salón de eventos</a>
+                                                                <ul>
+                                                                    <li><a href="eventos1">Salón de eventos 1</a></li>
+                                                                    <li><a href="eventos2">Salón de eventos 2</a></li>
+                                                                    <li><a href="eventos3">Salón de eventos 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Foto</a>
+                                                                <ul>
+                                                                    <li><a href="foto1">Foto 1</a></li>
+                                                                    <li><a href="foto2">Foto 2</a></li>
+                                                                    <li><a href="foto3">Foto 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Gimnasio</a>
+                                                                <ul>
+                                                                    <li><a href="gimnasio1">Gimnasio 1</a></li>
+                                                                    <li><a href="gimnasio2">Gimnasio 2</a></li>
+                                                                    <li><a href="gimnasio3">Gimnasio 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Médico</a>
+                                                                <ul>
+                                                                    <li><a href="medico1">Médico 1</a></li>
+                                                                    <li><a href="medico2">Médico 2</a></li>
+                                                                    <li><a href="medico3">Médico 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Otros</a>
+                                                                <ul>
+                                                                    <li><a href="otros1">Lavanderia</a></li>
+                                                                    <li><a href="otros2">Autolavado</a></li>
+                                                                    <li><a href="otros3">Refaccionaria</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Renta</a>
+                                                                <ul>
+                                                                    <li><a href="renta1">Renta 1</a></li>
+                                                                    <li><a href="renta2">Renta 2</a></li>
+                                                                    <li><a href="renta3">Renta 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Restaurante</a>
+                                                                <ul>
+                                                                    <li><a href="restaurante1">Restaurante 1</a></li>
+                                                                    <li><a href="restaurante2">Restaurante 2</a></li>
+                                                                    <li><a href="restaurante3">Restaurante 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Salón de belleza</a>
+                                                                <ul>
+                                                                    <li><a href="belleza1">Salón de belleza 1</a></li>
+                                                                    <li><a href="belleza2">Salón de belleza 2</a></li>
+                                                                    <li><a href="belleza3">Salón de belleza 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Tienda</a>
+                                                                <ul>
+                                                                    <li><a href="tienda1">Tienda de productos</a></li>
+                                                                    <li><a href="tienda2">Cafeteria</a></li>
+                                                                    <li><a href="tienda3">Tienda de ropa</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Veterinaria</a>
+                                                                <ul>
+                                                                    <li><a href="veterinaria1">Veterinaria 1</a></li>
+                                                                    <li><a href="veterinaria2">Veterinaria 2</a></li>
+                                                                    <li><a href="veterinaria3">Veterinaria 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a>Agencias de viaje</a>
+                                                                <ul>
+                                                                    <li><a href="viaje1">Agencias de viaje 1</a></li>
+                                                                    <li><a href="viaje2">Agencias de viaje 2</a></li>
+                                                                    <li><a href="viaje3">Agencias de viaje 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                -->
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-12">
+                    <div class="single-footer-widget">
+                        <h6>Metabytepixel</h6>
+                        <ul class="footer-nav">
+                            <li><span class="fa fa-whatsapp"></span><a href="https://wa.me/+525566271872/?text=¡Hola! buen día, le contacto desde la página web"> +52 5566271872</a></li>
+                            <li><a href="mailto:ventas@metabytepixel.net"><span class="lnr lnr-envelope"></span><span class="text"> ventas@metabytepixel.net</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-12">
+                    <div class="single-footer-widget newsletter">
+                        <h6>Informacion y promociones</h6>
+                        <p>Suscribete para enterarte de todas nuestras promociones y ultimas noticias.</p>
+                        <div id="mc_embed_signup">
+                            <div class="form-group row" style="width: 100%">
+                                <div class="col-lg-8 col-md-12">
+                                    <input id="correoSuscripcion" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                    <div style="position: absolute; left: -5000px;">
+                                        <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12">
+                                    <button id="btnEnvioCorreoSuscripcion" class="nw-btn primary-btn">Suscribete<span class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> Todos los derechos reservados
+                </p>
+                <div class="footer-social d-flex align-items-center">
+                    <a href="https://www.instagram.com/metabytepixelmx/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/metabytepixel.net"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/metabytepixelMX"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/content/themes/bytepixel/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="~/content/themes/bytepixel/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/content/themes/bytepixel/js/easing.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/hoverIntent.js"></script>
+    <script src="~/content/themes/bytepixel/js/superfish.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/owl.carousel.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/jquery.nice-select.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/jquery.counterup.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/waypoints.min.js"></script>
+    <script src="~/content/themes/bytepixel/js/bytepixel-main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
+
+@RenderSection("scripts", required: false)
 </html>

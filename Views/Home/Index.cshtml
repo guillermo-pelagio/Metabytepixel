@@ -2,32 +2,344 @@
     ViewBag.Title = "Home Page";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
-
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-start">
+            <div class="banner-content col-lg-8 col-md-12">
+                <h1 class="">
+                    Tu página web <br>
+                    a la medida <br>
+                </h1>
+                <p class="text-white">
+                    Diseñamos a la medida de tus necesidades tu página web<br> con las tecnologias más actuales y rapidas <br> siempre pensando que tu proximo visitante sea tu proximo cliente.
+                </p>
+                <a id="atajoMenu" href="#plan" class="primary-btn header-btn">Explora el mejor plan para ti</a>
+            </div>
+        </div>
     </div>
-</main>
+</section>
+<!-- End banner Area -->
+<!-- Start brand Area -->
+<section class="brand-area pt-40">
+    <div class="container">
+        <div class="row logo-wrap">
+            <img class="d-block mx-auto" src="/content/themes/bytepixel/img/l1.svg" alt="" width="60rem">
+            <img class="d-block mx-auto" src="/content/themes/bytepixel/img/l2.svg" alt="" width="60rem">
+            <img class="d-block mx-auto" src="/content/themes/bytepixel/img/l3.svg" alt="" width="60rem">
+            <img class="d-block mx-auto" src="/content/themes/bytepixel/img/l4.svg" alt="" width="60rem">
+            <img class="d-block mx-auto" src="/content/themes/bytepixel/img/l5.svg" alt="" width="60rem">
+        </div>
+    </div>
+</section>
+<!-- End brand Area -->
+<!-- Start details Area -->
+<section class="details-area pt-50">
+    <div class="container">
+        <div class="details-section">
+            <div class="row align-items-center">
+                <div class="col-lg-2 detials-left">
+                    <h5 class="text-uppercase">Metabytepixel</h5>
+                    <p>
+                        Tecnología a tu medida
+                    </p>
+                </div>
+                <div class="col-lg-9 detials-right">
+                    <p>
+                        Te diseñamos tu pagina web a la medida, nuestros diseños se adaptan a cualquier tipo de disposito y cuentan con la tecnologia mas actual. Nuestros planes cuentan con liks a tus redes sociales, cuentas de correo y ubicacion de tu negocio en google maps.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End details Area -->
+<!-- Start price Area -->
+<section class="price-area section-gap" id="plan">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Elige el plan que mas te se adecue a tus necesidades</h1>
+                    <p>Haz que tu negocio tenga presencia en internet</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="single-price" style="border-color: lightgrey;border-width: medium;border-style: ridge;">
+                    <div class="top-sec d-flex justify-content-between">
+                        <div class="top-left">
+                            <h4>Startup</h4>
+                            <p>Para empresas <br>que estan iniciando en internet</p>
+                        </div>
+                        <div class="top-right">
+                            <h3>$300.00 MXN/mes</h3>
+                        </div>
+                    </div>
+                    <div class="end-sec">
+                        <ul>
+                            <li>Hasta 5 secciones</li>
+                            <li>Hasta 10 cuentas de correo</li>
+                            <li>Dominio gratis el primer año</li>
+                            <li>Diseño responsivo para todos los dispositivos</li>
+                            <li>Ubicación en google maps de tu empresa</li>
+                            <li>Formulario de contacto</li>
+                            <li>Enlaces a redes sociales</li>
+                            <li>Hospedaje de 2 GB</li>
+                            <li>Soporte tecnico</li>
+                        </ul>
+                        <a id="idStartup" href="#contact" class="primary-btn price-btn mt-20">Contactanos<span class="lnr lnr-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-price" style="border-color: dodgerblue;border-width: medium;border-style: ridge;">
+                    <div class="top-sec d-flex justify-content-between">
+                        <div class="top-left">
+                            <h4>Negocios</h4>
+                            <p>Para obtener mayor<br> prescencia en internet</p>
+                        </div>
+                        <div class="top-right">
+                            <h3>$500.00 MXN/mes</h3>
+                        </div>
+                    </div>
+                    <div class="end-sec">
+                        <ul>
+                            <li>Hasta 10 secciones</li>
+                            <li>Hasta 50 cuentas de correo</li>
+                            <li>Dominio gratis el primer año</li>
+                            <li>Diseño responsivo para todos los dispositivos</li>
+                            <li>Ubicación en google maps de tu empresa</li>
+                            <li>Formulario de contacto</li>
+                            <li>Enlaces a redes sociales</li>
+                            <li>Hospedaje de 3 GB</li>
+                            <li>Soporte tecnico</li>
+                        </ul>
+                        <a id="idNegocios" href="#contact" class="primary-btn price-btn mt-20">Contactanos<span class="lnr lnr-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-price" style="border-color: lightgrey;border-width: medium;border-style: ridge;">
+                    <div class="top-sec d-flex justify-content-between">
+                        <div class="top-left">
+                            <h4>Ultimate</h4>
+                            <p>Para empresas que <br>requieren ventas en linea</p>
+                        </div>
+                        <div class="top-right">
+                            <h3>$700.00 MXN/mes</h3>
+                        </div>
+                    </div>
+                    <div class="end-sec">
+                        <ul>
+                            <li>Hasta 15 secciones</li>
+                            <li>Cuentas de correo ilimitadas</li>
+                            <li>Dominio gratis el primer año</li>
+                            <li>Diseño responsivo para todos los dispositivos</li>
+                            <li>Ubicación en google maps de tu empresa</li>
+                            <li>Formulario de contacto</li>
+                            <li>Enlaces a redes sociales</li>
+                            <li>Hospedaje de 4 GB</li>
+                            <li>Soporte tecnico</li>
+                        </ul>
+                        <a id="idUltimate" href="#contact" class="primary-btn price-btn mt-20">Contactanos<span class="lnr lnr-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End price Area -->
+<!-- Start about Area -->
+<section class="about-area" id="about">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-end align-items-center">
+            <div class="col-lg-6 col-md-12 about-left">
+                <h1>Acerca de nosotros</h1>
+                <p>
+                    Somos un equipo de trabajo conformados por especialistas comprometidos con la máxima satisfacción de nuestros clientes;L siempre teniendo como prioridad tus necesidades y requerimientos.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-12 about-right no-padding">
+                <img class="img-fluid" src="/content/themes/bytepixel/img/main.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End about Area -->
+<!-- Start service Area -->
+<section class="service-area section-gap" id="service">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-40 header-text">
+                <h1>Algunas ventajas de tener un sitio web</h1>
+                <p>
+                    Empieza a disfrutar estas y muchas otras desde el momento que empieces a digitalizar tu negocio
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-user"></span>Aumenta el alcance de tu negocio</h4>
+                    <p>
+                        Apunta a nuevos clientes cruzando fronteras y alcanzando nuevos territorios.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-license"></span>Mejora la imagen de tu marca</h4>
+                    <p>
+                        Un negocio en internet es un negocio consolidado.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-phone"></span>Aumenta tus ventas</h4>
+                    <p>
+                        Porque cada visita en tu pagina web es un cliente potencial.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-rocket"></span>Mejora el servicio al cliente</h4>
+                    <p>
+                        Si tu cliente tiene algun comentario o quiere interactuar contigo, te enteraras inmediatamente.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-diamond"></span>Abierto 24/7</h4>
+                    <p>
+                        Tu negocio siempre estara abierto y sera visible en todo el mundo.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service">
+                    <h4><span class="lnr lnr-bubble"></span>Menor inversión</h4>
+                    <p>
+                        Podras encontrar clientes potenciales de una mas directa, eficiente y menos costosa que las tradicionales campañas de marketing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End service Area -->
+<!-- Start info Area -->
+<section class="info-area relative section-gap">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-lg-5">
+                <h1 class="text-white">
+                    Tu negocio<br>
+                    en la nueva era digital
+                </h1>
+                <p class="pt-20 pb-20">
+                    Te ayudamos a elegir la opción que tu negocio necesita, a precios accesibles. Lo apoyamos en el desarrollo total de la pagina Web, para que su empresa empiece a gozar de los beneficios de estar en siempre conectado en la internet
+                </p>
+                <a href="#contact" id="idDigital" class="primary-btn header-btn text-uppercase">Contactanos</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End info Area -->
+<!-- Start faq Area -->
+<section class="faq-area section-gap" id="faq">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Estadisticas para crear tu negocio digital</h1>
+                    <p>Algunos numeros que muestran la importancia de que tu negocio tenga presencia en internet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="counter-left col-lg-3 col-md-3">
+                <div class="single-facts">
+                    <h2 class="counter">85,000,000</h2>
+                    <p> de personas con acceso a internet en México</p>
+                </div>
+                <div class="single-facts">
+                    <h2 class="counter">67</h2>
+                    <p>% de personas han realizado una compra en linea</p>
+                </div>
+                <div class="single-facts">
+                    <h2 class="counter">90</h2>
+                    <p>% buscan opciones en internet antes de realizar una compra</p>
+                </div>
+                <div class="single-facts">
+                    <h2 class="counter">8.5</h2>
+                    <p>hrs es el tiempo promedio en el que se usa el internet diariamente</p>
+                </div>
+            </div>
+            <div class="faq-content col-lg-9 col-md-9">
+                <div class="single-faq">
+                    <h2>
+                        Presencia en internet
+                    </h2>
+                    <p>
+                        En la nueva era digital es indispensable tener una página web y redes sociales como pilar fundamental de la imagen corporativa de tu negocio.
+                    </p>
+                </div>
+                <div class="single-faq">
+                    <h2>
+                        Mayor audiencia, mayores ventas
+                    </h2>
+                    <p>
+                        En esta nueva era cuando necesitamos buscar algo nuestra primera opción suele ser Google o el teléfono celular, no te quedes atras y da el siguiente paso.
+                    </p>
+                </div>
+                <div class="single-faq">
+                    <h2>
+                        Actualizaciones al instante
+                    </h2>
+                    <p>
+                        Los usuarios se valen de internet para encontrar información que ayude en su toma de decisión de compra; los precios especiales, promociones, experiencias de otros usuarios etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End faq Area -->
+<!-- start contact Area -->
+<section class="contact-area section-gap" id="contact">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-30 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Contactanos</h1>
+                    <p>Dejanos saber tus inquietudes, comentarios y sugerencias</p>
+                </div>
+            </div>
+        </div>
+        <div class="form-area mt-30" class="contact-form text-right">
+            <div class="row">
+                <div class="col-lg-6 form-group">
+                    <input id='nombre' placeholder='Nombre' class='common-input mb-20 form-control' required='' type='text'>
+                    <input id='correo' placeholder='Correo electrónico' class='common-input mb-20 form-control' required='' type='email'>
+                    <input id='titulo' placeholder='Titulo del mensaje' class='common-input mb-20 form-control' required='' type='text'>
+                </div>
+                <div class="col-lg-6 form-group">
+                    <textarea id='mensaje' class='common-textarea mt-10 form-control' name='message' placeholder='Texto del mensaje' onfocus='this.placeholder = ''' onblur='this.placeholder = 'Texto del mensaje'' required=''></textarea>
+                    <button id='btnEnvioCorreo' class='primary-btn mt-20'>Enviar mensaje<span class='lnr lnr-arrow-right'></span></button>
+                    <div class='mt-10 alert-msg'>
+                    </div>
+                </div>
+            </div>
+            </form>
+
+
+        </div>
+</section>
