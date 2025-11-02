@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\memo_\\Documents\\repos\\Metabytepixel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D590C246-E8EE-42EB-89EA-09C3202D2873}|..\\Veterinaria1\\Veterinaria1.csproj|d:\\memo_\\documents\\repos\\veterinaria1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|d:\\memo_\\documents\\repos\\metabytepixel\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Veterinaria1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|d:\\memo_\\documents\\repos\\metabytepixel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D590C246-E8EE-42EB-89EA-09C3202D2873}|..\\Veterinaria1\\Veterinaria1.csproj|d:\\memo_\\documents\\repos\\veterinaria1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D590C246-E8EE-42EB-89EA-09C3202D2873}|..\\Veterinaria1\\Veterinaria1.csproj|d:\\memo_\\documents\\repos\\veterinaria1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+      "AbsoluteMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|d:\\memo_\\documents\\repos\\metabytepixel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Veterinaria1",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Veterinaria1.csproj",
-              "RelativeDocumentMoniker": "..\\Veterinaria1\\Veterinaria1.csproj",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Veterinaria1.csproj",
-              "RelativeToolTip": "..\\Veterinaria1\\Veterinaria1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-02T03:04:12.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKMBAAAAAAAAAAAqwKgBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T02:56:18.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T02:49:12.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-02T15:52:20.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T01:31:10.325Z",
+              "WhenOpened": "2025-11-02T14:35:17.972Z",
               "EditorCaption": ""
             }
           ]

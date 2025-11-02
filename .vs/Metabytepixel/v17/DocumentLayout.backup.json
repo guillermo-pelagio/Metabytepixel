@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "D:\\memo_\\Documents\\repos\\Metabytepixel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D590C246-E8EE-42EB-89EA-09C3202D2873}|..\\Veterinaria1\\Veterinaria1.csproj|d:\\memo_\\documents\\repos\\veterinaria1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|d:\\memo_\\documents\\repos\\metabytepixel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D590C246-E8EE-42EB-89EA-09C3202D2873}|..\\Veterinaria1\\Veterinaria1.csproj|d:\\memo_\\documents\\repos\\veterinaria1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|d:\\memo_\\documents\\repos\\metabytepixel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89261357-C239-4AC7-BE96-9A545213D22E}|Metabytepixel.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,50 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\Veterinaria1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKMBAAAAAAAAAAAqwKgBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T02:56:18.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T02:49:12.458Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\memo_\\Documents\\repos\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\Veterinaria1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAA8AAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\memo_\\Documents\\repos\\Metabytepixel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T01:31:10.325Z",
+              "WhenOpened": "2025-11-02T14:35:17.972Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
